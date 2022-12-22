@@ -1,1 +1,10 @@
 https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
+
+git add dist -f
+
+git commit -m "Adding dist"
+
+git subtree push --prefix dist origin gh-pages
+
+### BETTER ###
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane#comment-22iei
